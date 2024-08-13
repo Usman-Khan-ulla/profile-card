@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Portfolio Website Design</title>
     <link rel="stylesheet" href="style.css">
-    <!----Font awesome cdn  font icon css -->
+    <!----Font awesome cdn font icon css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    /* Add your existing styles here */
+
+/* Hero image styles */
+.hero-pic {
+    text-align: center; /* Center align the image */
+    margin: 20px 0; /* Add some space around the image */
+}
+
+.profile-pic {
+    width: 150px; /* Fixed width for the profile picture */
+    height: 150px; /* Fixed height for the profile picture */
+    border-radius: 50%; /* Make it circular, optional */
+    object-fit: cover; /* Cover the area without distorting */
+}
+
+/* Other styles for buttons, text, etc. can be added here */
+
 </head>
 <body>
      <div class="hero-header">
@@ -34,14 +51,15 @@
             </header>
             <div class="container">
                  <div class="hero-pic">
-                    <img src="U$ER.jpg" alt="profile pic" style="width:100%">
+                    <img src="U$ER.jpg" alt="profile pic" class="profile-pic">
                  </div>
                  <div class="hero-text">
                     <h5>Hi I'm <span class="input">Dotnet Developer</span></h5>
                     <h1>Usman Ulla Khan</h1>
-                    <p>  Junior Software Developer with Hands on Experience in ASP.Net, C#, SQL Server, Oracle, MVC and Web API.
-                         Proficient in handling various data exchange formats including JSON, XML, and CSV files.
-                         Knowledge Of SDLC and Agile Methodology and Api Testing with Swagger.
+                    <p> 
+                         Junior Software Developer with Hands on Experience in ASP.Net, C#, SQL Server, Oracle, MVC and Web API.<br>
+                         Proficient in handling various data exchange formats including JSON, XML, and CSV files.<br>
+                         Knowledge Of SDLC and Agile Methodology and Api Testing with Swagger.<br>
                          Experience in Basic SQL Queries and SQL Connection and Schema.
                     </p>
                     <div class="btn-group">
